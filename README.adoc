@@ -1,0 +1,13 @@
+= Website
+
+
+[source, shell]
+----
+# git
+git init
+git remote add origin git@github.com:aslthiago/website.git
+echo "/node_modules/" > .gitignore
+
+# javascript
+yarn init -yp
+----
