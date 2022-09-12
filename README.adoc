@@ -12,6 +12,6 @@ echo "/node_modules/" > .gitignore
 yarn init -yp
 yarn add -D webpack webpack-cli webpack-dev-server
 yarn start
-yarn add -D css-loader autoprefixer postcss postcss-loader postcss-preset-env style-loader tailwindcss @babel/core @babel/preset-env babel-loader
+yarn add -D css-loader autoprefixer postcss postcss-loader postcss-preset-env style-loader tailwindcss @babel/core @babel/preset-env babel-loader material-icons @fortawesome/fontawesome-free
 yarn build
 ----
