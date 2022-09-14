@@ -2,4 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@import "material-icons/iconfont/material-icons.css";
+/* @import "material-icons/iconfont/material-icons.css"; */
+
+/* #home {
+    background-image: url("assets/top.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+} */

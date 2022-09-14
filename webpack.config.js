@@ -3,13 +3,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const isProduction = process.env.NODE_ENV === 'production';
 
 const config  = {
-    mode: 'development',
     entry: './src/index.js',
     output: {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
       clean: true,
-      publicPath: '/',
     },
     plugins: [
         new HtmlWebpackPlugin({
